@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editoren / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Lokale Konfiguration mit echten Zugangs-/Kontaktdaten
+*.local.php

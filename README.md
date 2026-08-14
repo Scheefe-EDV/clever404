@@ -1,7 +1,7 @@
 clever404
 =========
 
-Wordpress 4040 Template with intelligence
+Wordpress 404 Template with intelligence
 
 WAS ES IST
 
@@ -28,6 +28,8 @@ INSTALLATIONSHINWEISE
 2. öffne die 404.php und fülle den Bereich "CONFIGURATION" aus. Folgende Felder müssen befüllt werden:
   a) Liste der Suchmaschinen
   b) Für welche Webseiten soll die E-Mail-Funktion aktiviert sein? (Format: "www.personenname.de","www.bastianoso.de")
+     Verglichen wird die Domain des Referers — trage hier also die eigene Domain ein, damit defekte
+     interne Links gemeldet werden. Bleibt die Liste leer, verschickt das Script keine E-Mails.
   c) E-Mail-Adresse des Empfängers "mail@personnename.de" (inkl. Anführungszeichen)
   d) Name des Absenders "mail@personnename.de" (inkl. Anführungszeichen)
   e) E-Mail-Adresse des Absenders "404@personnename.de" (inkl. Anführungszeichen)
