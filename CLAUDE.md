@@ -31,7 +31,7 @@ Die Variable `$case` steuert Text und Mailversand:
 | 0 | Fallback (wird derzeit nicht erreicht) | nein |
 | 1 | kein Referer — Vertipper oder alter Bookmark | nein |
 | 2 | Referer liegt auf der eigenen Domain — interner Link defekt | ja |
-| 3 | Referer ist eine Suchmaschine aus `$searchEngingeList` | nein |
+| 3 | Referer ist eine Suchmaschine aus `$searchEngineList` | nein |
 | 4 | Referer ist eine fremde Webseite | ja |
 | 5 | Bot-/Hacking-Verdacht (Referer == URL, `RK=0`, `author=`) | nein |
 

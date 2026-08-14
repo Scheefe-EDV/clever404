@@ -9,12 +9,17 @@
  * @category   Theme-AddOn
  * @author     Bastian Scheefe <info@scheefe-edv.de>
  * @license    tbd
- * @version    1.2
+ * @version    1.3
  * @link       htt://www.bastianoso.de/clever404.html
  * @deprecated 
  * @todo       
  * -----------------------------------
  * AMENDMENT HISTORY
+ *
+ * editDate: 2026-08
+ * desc:     Tippfehler im Namen der Suchmaschinenliste behoben ($searchEngingeList
+ *           -> $searchEngineList). Case 3 (Besucher kommt ueber Suchmaschine) wurde
+ *           dadurch nie erreicht; stattdessen griff Case 4 inklusive Mailversand.
  *
  * editDate: 2014-09
  * desc: 	 Erstbefüllung der Google-Suchfunktionen aus URL
@@ -24,7 +29,7 @@
  * CONFIGURATION:
 */
 // Liste der Suchmaschinen
-$searchEngingeList=array("google.com", "bing.com", "altavista.com", "google.de", "bing.de");
+$searchEngineList=array("google.com", "bing.com", "altavista.com", "google.de", "bing.de");
 
 // Für welche Webseiten soll die E-Mail-Funktion aktiviert sein? (Format: "www.personenname.de","www.bastianoso.de")
 $mailWhitelist= array();
